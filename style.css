@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: #114357;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+.converter{
+    background-color: #8E0E00;
+    width: 600px;
+    height: 500px;
+    margin: 40px auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+    border-radius: 20px;
+    box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.15) ;   
+}
+
+
+#toConvert{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 10px;
+    border:none;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+#converted{
+    font-size: 50px;
+    border:#fff solid;
+    padding: 8px 40px;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+#convertBtn{
+    padding: 40px;
+    font-size: 40px;
+    background:transparent;
+    border:none;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.container{
+    margin: 50px auto;
+    background-color: #fff;
+    width: 300px;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 25px;
+}
+
+.container label{
+    font-size: 20px;
+}
+
+#updateSelection{
+    color: #fff;
+    font-size: 20px;
+}
+
