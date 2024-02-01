@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="options">
+            <span class="title">Choose Option:</span><br>
+            <label for="">Fº ➡️ Cº</label>
+            <input type="radio" id="toCelsius"><br>
+            <label for="toFahrenheit">Cº ➡️ Fº</label>
+            <input type="radio" id="toFahrenheit">
+        </div>
+    </div>
+    <div class="converter">
+        <input type="number" id="toConvert" placeholder="Temperature">
+        <button id="convertBtn" onclick="convert()" ><i class="fa-solid fa-temperature-arrow-down"></i></button>
+        <h4 id="converted">0</h4>
+    <div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
